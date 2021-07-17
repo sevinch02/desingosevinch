@@ -35,10 +35,10 @@
    margin: 0 auto;
   }
 
-  .nav-main {
+  /*.nav-main {
     justify-content: space-between;
   }
-
+*/
   .main-header {
     width: 95%;
   }
@@ -58,7 +58,7 @@
     left: 24%;
   }
   .app-foto img {
-    width: 698px;
+    width: 735px;
     height: 310px;
     object-fit: fill;
     object-position: center;
@@ -276,9 +276,77 @@
 }
 
 @media(max-width:767px){
-  .nav-main{
+  .nav-main {
+    display: none;
+    position: absolute;
+    top: 14%;
+    left: 24px;
+    right: 24px;
+    margin-top: 24px;
+    padding: 15px;
+    background-color:  #1D1C1E;
+    border-radius: 4px;
+    z-index: 1;
+}
+
+.main-header.on:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 16%;
+    height: 600px;
+    background: linear-gradient(180deg, #01020a 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.main-header .menu-toggle.open {
+    display: block;
+}
+.main-header .menu-toggle.close {
+    display: none;
+}
+.main-header.on .menu-toggle.open {
+    display: none;
+}
+.main-header.on .menu-toggle.close {
+    display: block;
+}
+.nav-main-link {
+    display: block;
+    font-size: 18px;
+    padding: 15px 0;
+}
+.nav-main-link:after {
+    bottom: 0;
+    width: 50px;
+    left: 50%;
+    margin-left: -25px;
+}
+.menu-toggle {
+    display: block;
+    border: none;
+    background: transparent;
+}
+.intro {
+  margin-top: 58px;
+}
+  /*.nav-main{
     display: none;
   }
+  .menu-toggle{
+    display: block;
+  }
+  .main-header.on .menu-toggle.open {
+    display: none;
+}
+.main-header.on .menu-toggle.close {
+  display: block;
+}
+.menu-toggle {
+  display: block;
+  border: none;
+  background: transparent;
+}*/
   .textarea {
     width: 637px;
 }
@@ -410,7 +478,7 @@
   border-radius: 15px;
     width: 439px;
 }
-}
+
 .deal-column-img img {
   width: 458px;
 }
@@ -422,14 +490,16 @@
 }
 .features-paragrah {
   font-size: 14px;
-  line-height: 23px;}
+  line-height: 23px;
+}
   .desinger-title {
     font-weight: 500;
-    font-size: 38px;}
+    font-size: 38px;
+  }
     .world-class-img img {
       width: 456px;
   }
-  .about-img img {
+    .about-img img {
     width: 460px;
 }
 .deal-column-img img {
@@ -452,7 +522,7 @@
 }
 
 .card1-title {
-  margin-left: 29px;
-}
+  margin-left: 29px;}
+
 
 }
