@@ -45,41 +45,29 @@
 
   .web-content::after {
     height: 278px;
-
   }
-
-  /*.web-foto{
-    width: 820px;
-    height: 471px;
-    object-fit: contain;
-   
-  }*/
   .web-foto img {
     width: 698px;
     height: 310px;
     object-fit: fill;
     object-position: 3px 16px;
   }
-
   .helper-web-desinger-text {
     position: absolute;
     top: 25%;
     left: 24%;
   }
-
   .app-foto img {
     width: 698px;
     height: 310px;
     object-fit: fill;
     object-position: center;
   }
-
   .desinger-text {
     position: absolute;
     top: 15%;
     left: 33%;
   }
-
   .helper-for-des-text {
     position: absolute;
     top: 14%;
@@ -232,7 +220,7 @@
   border-radius: 15px;
 }
 .card1{
-  width: 96%;
+  width: 90%;
 }
 .card1-title {
   margin-left: 73px;
@@ -243,7 +231,7 @@
   margin: 50px 0;
 }
 .card2{
-  width: 100%;
+  width: 90%;
   margin: 0 ;
 }
 .card2-title {
@@ -258,7 +246,7 @@
   flex-direction: column-reverse;
 }
 .card3-text1 {
-  width: 100%;
+  width: 90%;
   margin: 0;
 }
 .card1-title {
@@ -323,6 +311,12 @@
 .desingo-links{
   order: 2;
 }
+.web-foto img{
+  width: 604px;
+}
+.app-foto img{
+  width: 604px;
+}
 .world-class-img img {
   width: 718px;
 }
@@ -348,4 +342,117 @@
   }
   .location-img img {
     width: 746px;}
+}
+@media(max-width:565px){
+  .location-img img {
+    width: 537px;
+}
+.get-in-text{
+  margin: 45px 15px 10px 9px;
+}
+.get-in-title {
+  width: 109%;}
+  .deal-column-img img {
+    width: 534px;
+}
+.about-img img {
+  width: 540px;
+}
+.world-class-img img {
+  width: 545px;
+}
+.world-text {
+  width: 97%;}
+  .countries-column3 img {
+    margin: 0px 163px;
+}.country-btn {
+  margin: 0 159px;
+}
+.world-class-text {
+  padding: 52px 81px;
+}
+.world-class-text {
+  padding: 13px 57px;
+}
+.services-column2 {
+  width: 95%;
+}
+.app-foto {
+  width: 100%;
+}
+.app-content {
+  width: 100%;}
+.web-foto img {
+  width: 495px;
+}
+.app-foto img {
+  width: 509px;
+}
+.features-col3 {
+  width: 96%;
+  display: flex;
+  flex-direction: column;
+}
+}
+@media(max-width:480px){
+  .app-foto img {
+    width: 443px;
+}
+.get-in {
+  width: 81%;
+  top: -254px;
+  left: 60px;
+}
+.desingo-adress {
+  width: 57%;
+}
+.web-foto img {
+  border-radius: 15px;
+    width: 439px;
+}
+}
+.deal-column-img img {
+  width: 458px;
+}
+.countries-column3 img {
+  margin: 0px 100px;
+}
+.country-btn {
+  margin: 0 130px;
+}
+.features-paragrah {
+  font-size: 14px;
+  line-height: 23px;}
+  .desinger-title {
+    font-weight: 500;
+    font-size: 38px;}
+    .world-class-img img {
+      width: 456px;
+  }
+  .about-img img {
+    width: 460px;
+}
+.deal-column-img img {
+  width: 458px;
+}
+.location-img img {
+  width: 448px;
+}
+.card1 {
+  width: 100%;
+  margin: 0;
+}
+.card2 {
+  width: 100%;
+  margin: 0;
+}
+.card3-text1 {
+  width: 100%;
+  margin: 0;
+}
+
+.card1-title {
+  margin-left: 29px;
+}
+
 }
