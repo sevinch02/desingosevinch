@@ -1,0 +1,12 @@
+@media(max-width:1110px){
+    .container{
+      max-width: 930px;  
+    }
+    .footer{
+        padding: 145px 0;
+    }
+    
+}
+@media(max-width:991px){
+    
+}
