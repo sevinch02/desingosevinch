@@ -330,23 +330,6 @@
 .intro {
   margin-top: 58px;
 }
-  /*.nav-main{
-    display: none;
-  }
-  .menu-toggle{
-    display: block;
-  }
-  .main-header.on .menu-toggle.open {
-    display: none;
-}
-.main-header.on .menu-toggle.close {
-  display: block;
-}
-.menu-toggle {
-  display: block;
-  border: none;
-  background: transparent;
-}*/
   .textarea {
     width: 637px;
 }
@@ -356,9 +339,6 @@
 .country-btn {
   margin: 0 252px;
 }
-/*.footer{
-  padding: 77px 0 0;
-}*/
 .footer .row{
   flex-direction: column;
   align-items: center
@@ -449,17 +429,26 @@
   width: 100%;
 }
 .app-content {
-  width: 100%;}
+  width: 98%;}
 .web-foto img {
   width: 495px;
 }
 .app-foto img {
-  width: 509px;
+  width: 495px;
+}
+.desinger-text{
+  left: 26%;
+}
+.helper-for-des-text{
+  left: 14%;
 }
 .features-col3 {
   width: 96%;
   display: flex;
   flex-direction: column;
+}
+.intro-title{
+  width: 98%;
 }
 }
 @media(max-width:480px){
@@ -494,7 +483,7 @@
 }
   .desinger-title {
     font-weight: 500;
-    font-size: 38px;
+    font-size: 29px;
   }
     .world-class-img img {
       width: 456px;
